@@ -7,20 +7,34 @@ model comparison, explainability, and business intelligence.
 Author: Mohit RJ
 """
 
-import streamlit as st
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib
-matplotlib.use('Agg')
-import seaborn as sns
 import os
 import sys
+
+# Fix encoding for cloud environments
+os.environ['PYTHONIOENCODING'] = 'utf-8'
+
+import streamlit as st
+
+# PAGE CONFIG MUST be the FIRST Streamlit command (before any other imports
+# that might trigger Streamlit internally)
+st.set_page_config(
+    page_title="FraudShield AI -- Financial Fraud Detection",
+    page_icon="🛡️",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+
+import pandas as pd
+import numpy as np
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+import seaborn as sns
 import time
 import joblib
 
 # Add project root to path
-sys.path.insert(0, os.path.dirname(__file__))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from src.data_generator import generate_dataset, get_dataset_summary, MERCHANT_CATEGORIES, CARD_TYPES, ENTRY_MODES, COUNTRIES
 from src.preprocessing import preprocess_pipeline, preprocess_single_transaction
@@ -35,16 +49,6 @@ from src.explainability import (
     compute_permutation_importance, plot_feature_importance,
     plot_permutation_importance, generate_business_insights,
     explain_single_prediction, plot_fraud_patterns
-)
-
-# ╔══════════════════════════════════════════════════════════════════╗
-# ║                     PAGE CONFIGURATION                          ║
-# ╚══════════════════════════════════════════════════════════════════╝
-st.set_page_config(
-    page_title="FraudShield AI — Financial Fraud Detection",
-    page_icon="🛡️",
-    layout="wide",
-    initial_sidebar_state="expanded",
 )
 
 # ╔══════════════════════════════════════════════════════════════════╗
