@@ -11,21 +11,19 @@ import os
 import sys
 import joblib
 
-base_dir = os.path.dirname(__file__)
-model_path = os.path.join(base_dir, "models", "model.pkl")
-
-model = joblib.load(model_path)
+# model_path = os.path.join(base_dir, "models", "model.pkl")
+# model = joblib.load(model_path)
 
 # Fix encoding for cloud environments
 os.environ['PYTHONIOENCODING'] = 'utf-8'
 
 import streamlit as st
 
-@st.cache_resource
-def load_model():
-    return joblib.load("models/model.pkl")
-
-model = load_model()
+# @st.cache_resource
+# def load_model():
+#     return joblib.load("models/model.pkl")
+# 
+# model = load_model()
 
 # PAGE CONFIG MUST be the FIRST Streamlit command (before any other imports
 # that might trigger Streamlit internally)
