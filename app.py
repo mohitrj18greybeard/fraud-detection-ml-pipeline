@@ -4,7 +4,7 @@ AI-Powered Financial Fraud Detection System
 Elite-level Streamlit dashboard for real-time fraud detection,
 model comparison, explainability, and business intelligence.
 
-Author: Mohit RJ
+Author: Mohit
 """
 
 import os
