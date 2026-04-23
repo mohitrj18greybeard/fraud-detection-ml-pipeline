@@ -308,7 +308,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ## 👤 Author
 
-**Mohit RJ** — [GitHub](https://github.com/mohitrj18greybeard)
+**Mohit** — [GitHub](https://github.com/mohitrj18greybeard)
 
 ---
 
