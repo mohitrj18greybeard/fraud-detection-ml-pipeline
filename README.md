@@ -272,6 +272,12 @@ streamlit run app.py
 Then open **http://localhost:8501** in your browser.
 
 ---
+```
+
+### Cloud
+The app is live at: **[FraudShield AI →](https://fraud-detection-ml-pipeline-y3htsbzzxgdwue2ar2fx6h.streamlit.app/)**
+
+---
 
 ## 🛠️ Tech Stack
 
