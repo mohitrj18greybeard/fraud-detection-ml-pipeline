@@ -238,9 +238,6 @@ Original Data: ~2% Fraud, ~98% Legitimate
 
 ## 🚀 Quick Start
 
-### Cloud
-The app is live at: **[FraudShield AI →](https://fraud-detection-ml-pipeline-y3htsbzzxgdwue2ar2fx6h.streamlit.app/)**
-
 ### Prerequisites
 - Python 3.10+
 - pip
@@ -271,8 +268,6 @@ streamlit run app.py
 Then open **http://localhost:8501** in your browser.
 
 ---
-```
-
 
 ## 🛠️ Tech Stack
 
@@ -301,18 +296,18 @@ Then open **http://localhost:8501** in your browser.
 
 ---
 
+## 👤 Author
+
+**Mohit** — [GitHub](https://github.com/mohitrj18greybeard)
+
+---
 ## 📜 License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👤 Author
-
-**Mohit** — [GitHub](https://github.com/mohitrj18greybeard)
-
----
-
 <p align="center">
-  <sub>Built with ❤️ as a production-grade ML portfolio project</sub>
+  <strong>⭐ If you found this project useful, please give it a star!</strong><br/>
+  <em>Built with ❤️ </em>
 </p>
