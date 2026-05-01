@@ -1,17 +1,13 @@
-<p align="center">
-  <h1 align="center">🛡️ FraudShield AI</h1>
-  <p align="center">
-    <strong>AI-Powered Financial Fraud Detection System</strong><br>
+🛡️ [FraudShield AI →](https://fraud-detection-ml-pipeline-y3htsbzzxgdwue2ar2fx6h.streamlit.app/) AI-Powered Financial Fraud Detection System
+ 
     An end-to-end machine learning pipeline for detecting fraudulent financial transactions using advanced imbalanced data handling techniques.
-  </p>
-  <p align="center">
+<p align="center">
     <img src="https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white" alt="Python">
     <img src="https://img.shields.io/badge/XGBoost-2.0+-green?logo=xgboost&logoColor=white" alt="XGBoost">
     <img src="https://img.shields.io/badge/Scikit--Learn-1.3+-orange?logo=scikitlearn&logoColor=white" alt="Scikit-learn">
     <img src="https://img.shields.io/badge/Streamlit-1.28+-red?logo=streamlit&logoColor=white" alt="Streamlit">
     <img src="https://img.shields.io/badge/SMOTE-Imbalanced--Learn-purple" alt="SMOTE">
     <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
-  </p>
 </p>
 
 ---
