@@ -1,6 +1,6 @@
-🛡️ [FraudShield AI →](https://fraud-detection-ml-pipeline-y3htsbzzxgdwue2ar2fx6h.streamlit.app/) AI-Powered Financial Fraud Detection System
+# 🛡️ [FraudShield AI →](https://fraud-detection-ml-pipeline-y3htsbzzxgdwue2ar2fx6h.streamlit.app/) AI-Powered Financial Fraud Detection System
  
-    An end-to-end machine learning pipeline for detecting fraudulent financial transactions using advanced imbalanced data handling techniques.
+ An end-to-end machine learning pipeline for detecting fraudulent financial transactions using advanced imbalanced data handling techniques.
 <p align="center">
     <img src="https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white" alt="Python">
     <img src="https://img.shields.io/badge/XGBoost-2.0+-green?logo=xgboost&logoColor=white" alt="XGBoost">
